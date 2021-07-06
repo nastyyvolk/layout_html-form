@@ -14,7 +14,8 @@
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    <form
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="post"
     onsubmit="onSubmit()">
 
@@ -23,7 +24,8 @@
         <legend> Personal information</legend>
         <label class="form-field" for="surname">
           Surname:
-          <input type="text"
+          <input
+          type="text"
           autocomplete="false"
           name="surname"
           id="surname"
@@ -33,7 +35,8 @@
 
         <label class="form-field" for="name">
           Name:
-          <input type="text"
+          <input
+          type="text"
           autocomplete="false"
           name="name"
           id="name">
@@ -41,7 +44,8 @@
 
         <label class="form-field" for="age">
           How old are you?
-          <input type="number"
+          <input
+          type="number"
           value="12"
           name="age"
           max="100"
@@ -49,16 +53,18 @@
           id="age">
         </label>
 
-        <label class="form-field" for="birth">
+        <label class="form-field" for="birthday">
           Full date of birth:
-          <input type="date"
+          <input
+          type="date"
           name="birthday"
-          id="birth">
+          id="birthday">
         </label>
 
         <label class="form-field" for="terms">
           I accept the term of agreement
-          <input type="checkbox"
+          <input
+          type="checkbox"
           name="agreement"
           id="terms">
         </label>
@@ -69,7 +75,8 @@
         <legend> Registration </legend>
         <label class="form-field" for="email">
           E-mail:
-          <input type="email"
+          <input
+          type="email"
           name="email"
           placeholder="email@example.com"
           id="email"
@@ -78,7 +85,8 @@
 
         <label class="form-field" for="password">
           Password:
-          <input type="password"
+          <input
+          type="password"
           name="email"
           id="password">
         </label>
@@ -90,26 +98,29 @@
         <div class="form-field">
           Do you love cats?
 
-          <label for="cats-y">
-            <input type="radio"
+          <label for="cats-yes">
+            <input
+            type="radio"
             name="cats"
-            value="y"
-            id="cats-y">
+            value="yes"
+            id="cats-yes">
             Yes
           </label>
 
-          <label for="cats-n">
-            <input type="radio"
+          <label for="cats-no">
+            <input
+            type="radio"
             name="cats"
-            value="n"
-            id="cats-n">
+            value="no"
+            id="cats-no">
             No
           </label>
         </div>
 
         <label class="form-field" for="color">
           What is your favorite color?
-          <input type="color"
+          <input
+          type="color"
           name="color"
           value="black"
           id="color">
@@ -117,20 +128,23 @@
 
         <label class="form-field" for="time-to-bed">
           What time do you go to bed?
-          <input type="time"
+          <input
+          type="time"
           name="go-to-bed"
           id="time-to-bed">
         </label>
 
         <label class="form-field" for="cars">
           What are your favorite brand of cars?
-          <select name="brand-cars"
+          <select
+          name="brand-cars"
           id="cars"
           multiple>
             <option value="BMW"> BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
-            <option value=""
+            <option
+            value=""
             selected
             disabled>
             </option>
@@ -139,7 +153,8 @@
 
         <label class="form-field" for="work-quality">
           How do you rate our work?
-          <input type="range"
+          <input
+          type="range"
           name="work-quality"
           value="0"
           id="work-quality">
@@ -151,7 +166,8 @@
         <legend> Additional info </legend>
         <label class="form-field" for="comments">
           Comments:
-          <textarea name="comments"
+          <textarea
+          name="comments"
           rows="2"
           cols="20"
           id="comments">
@@ -160,7 +176,8 @@
 
         <label class="form-field" for="recommend">
           Would you recommend us?
-          <select name="recommend"
+          <select
+          name="recommend"
           id="recommend"
           required>
             <option value="yes">yes</option>
